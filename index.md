@@ -1,4 +1,4 @@
-| Tea :teapot: | Country | Region | Locale | Type | Weight (g) | Water (mL) | °F | Time | Result | 
+| Tea :teapot: | Country | Region | Locale | Type | g | mL | °F | :stopwatch: | Result | 
 | :--- | :--- | :--- | :--- | :--- | ---: |  ---: |  ---: |  ---: | :--- |
 | Songluo Full | China | Anhui | Qimen | Black | 5.0 | 480 | 212 | 4:00 | Yummmiest | 
 | Songluo Full | China | Anhui | Qimen | Black | 6.0 | 480 | 212 | 4:30 | Yum |
