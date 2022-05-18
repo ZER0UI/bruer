@@ -1,4 +1,4 @@
-<script src="https://[username].github.io/[repository]/[filename].js"></script>
+<script src="https://zer0ui.github.io/bruer/markdown-it-min.js"></script>
 
 
 
