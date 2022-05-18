@@ -15,3 +15,12 @@ Year/Harvest
 
 Here is a simple footnote[^1]  
 [^1]: My reference.
+
+
+~0~^UI^
+
+0^UI^
+
+0^UI^
+
+0~UI~
