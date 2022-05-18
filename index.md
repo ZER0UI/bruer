@@ -1,14 +1,5 @@
 <script src="https://zer0ui.github.io/bruer/markdown-it-min.js"></script>
 
-
-
-<script src="https://cdn.jsdelivr.net/npm/markdown-it@13.0.1/index.js" type="text/javascript"/>
-  {newline}
-</script>
-
-https://cdn.jsdelivr.net/npm/markdown-it@13.0.1/index.min.js
-
-
 ## Songlu Full
 
 ###### ORIGIN: *Qimen*, *Anhui*, *China*  
