@@ -83,13 +83,13 @@ Please select[dropdown] = {Option 1 | Value 1 ; Option 2 | Value 2; Option 3 | V
   
 
 Here is a simple footnote[^1]  
-[^1]: My reference.
+[^1]: My reference.  
 
 
-~0~^UI^
+~0~^UI^  
 
-0^UI^
+0^UI^  
 
-0^UI^
+0^UI^  
 
-0~UI~
+0~UI~  
