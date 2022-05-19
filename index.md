@@ -1,4 +1,4 @@
-<script src="[markdown-it-min.js]"></script>
+<script src="markdown-it-min.js"></script>
 <script src="markdown-it-input.js"></script>
 
 ## Songlu Full
