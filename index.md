@@ -5,7 +5,8 @@
 ## Songlu Full
 
 ###### ORIGIN: *Qimen*, *Anhui*, *China*  
-###### YEAR: 2021  
+###### YEAR: 2021  🌱
+Year/Harvest
 ###### VENDOR: Harney & Sons Tea  
 
 | 🍃 | 💧 | 🌡 | ⏱️ | 🎼 | 
@@ -30,9 +31,56 @@
 
 
 
+  
+<div id="content">
+Name = ___
 
-🌱
-Year/Harvest
+"""
+"""
+<!-- input: { "name":"mytextarea", "value":"Your text\n...\n...\n...", "div":{"id":"myTextareaID"} } -->
+
+Select your option(s) = [] Option 1 [] Option 2 [] Option 3
+<!-- input: { "name":"input3", "options": [{},{"checked":"checked"},{}] } -->
+
+Select (exactly) one option = () Option 1 () Option 2 () Option 3
+
+Please select = {Option 1; Option 2; Option 3}
+  
+
+Name = ___
+
+Name [yourname] = ___
+
+Name [yourname] = __Your name__
+
+"""
+"""
+
+"""c++
+#include <iostream>
+using namespace std;
+
+int main() 
+{
+    cout << "Hello, World!";
+    return 0;
+}
+"""[code]
+  
+Select your option(s)[checkbox] = [] Option 1 | Value 1 [] Option 2 | Value 2 [] Option 3 | Value 3
+  
+Select (exactly) one option[radio] = () Option 1 | Value 1 () Option 2 | Value 2 () Option 3  | Value 3
+  
+Please select[dropdown] = {Option 1 | Value 1 ; Option 2 | Value 2; Option 3 | Value 3 }
+  
+<!-- input: { "name":"input", "value":"Some value", "div": {"class"="input"} } -->
+  
+</div>
+
+  <script>
+	document.getElementById('content').innerHTML = markdownit({html: true}).use(input, { prefix: "myform"}).render( document.getElementById('content').innerHTML );
+  </script>
+  
 
 Here is a simple footnote[^1]  
 [^1]: My reference.
