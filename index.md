@@ -1,4 +1,6 @@
 <script src="https://zer0ui.github.io/bruer/markdown-it-min.js"></script>
+<script src="https://zer0ui.github.io/bruer/markdown-it-input.js"></script>
+
 
 ## Songlu Full
 
