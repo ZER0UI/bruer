@@ -1,5 +1,9 @@
-<script src="markdown-it-min.js"></script>
-<script src="markdown-it-input.js"></script>
+<head>
+  <meta charset='utf-8'>
+  <script src="markdown-it.min.js"></script>
+  <script src="markdown-it-input.js"></script>
+</head>
+
 
 ## Songlu Full
 
