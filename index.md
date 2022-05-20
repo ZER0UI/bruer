@@ -34,6 +34,18 @@ Year/Harvest
 
 
 
+Here is a simple footnote[^1]  
+[^1]: My reference.  
+
+
+~0~^UI^  
+
+0^UI^  
+
+0^UI^  
+
+0~UI~  
+
   
 <div id="content">
 Name = ___
@@ -69,30 +81,9 @@ int main()
     return 0;
 }
 """[code]
-  
-Select your option(s)[checkbox] = [] Option 1 | Value 1 [] Option 2 | Value 2 [] Option 3 | Value 3
-  
-Select (exactly) one option[radio] = () Option 1 | Value 1 () Option 2 | Value 2 () Option 3  | Value 3
-  
-Please select[dropdown] = {Option 1 | Value 1 ; Option 2 | Value 2; Option 3 | Value 3 }
-  
-<!-- input: { "name":"input", "value":"Some value", "div": {"class"="input"} } -->
-  
+
 </div>
 
   <script>
 	document.getElementById('content').innerHTML = markdownit({html: true}).use(input, { prefix: "myform"}).render( document.getElementById('content').innerHTML );
   </script>
-  
-
-Here is a simple footnote[^1]  
-[^1]: My reference.  
-
-
-~0~^UI^  
-
-0^UI^  
-
-0^UI^  
-
-0~UI~  
